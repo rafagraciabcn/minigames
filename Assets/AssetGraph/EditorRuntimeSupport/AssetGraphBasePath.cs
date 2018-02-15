@@ -26,7 +26,7 @@ namespace UnityEngine.AssetGraph {
                     var baseDir = fileInfo.Directory.Parent;
 
                     Assertions.Assert.AreEqual (ToolDirName, baseDir.Name);
-
+                    
                     string baseDirPath = baseDir.ToString ().Replace( '\\', '/');
 
                     int index = baseDirPath.LastIndexOf (ASSETS_PATH);
